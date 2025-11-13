@@ -1,1 +1,73 @@
 CA1/output_saltpepper_vid.mp4
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environments
+venv/
+env/
+*.env
+
+# Ignore common IDE files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore system files (macOS, Windows, Linux)
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# Ignore large datasets (specific to your project)
+# You can modify these according to the data you are working with.
+# For example:
+data/
+
+# Ignore specific directories where models are stored
+models/
+checkpoints/
+
+# Ignore large model files or weights (common extensions for large files)
+*.h5
+*.pkl
+*.pth
+*.pt
+*.onnx
+*.tflite
+*.weights
+*.hdf5
+
+# Ignore logs, temp, and checkpoints
+logs/
+*.log
+*.tmp
+*.bak
+*.checkpoint
+
+# Ignore other output files (for example, images, temporary result files)
+*.tiff
+*.webp
+*.mp4
+*.avi
+*.mov
+
+# Ignore data and models that are too large (adjust file extensions as needed)
+*.zip
+*.tar.gz
+*.7z
+*.rar
+*.tar
+*.xz
+
+# Ignore cache and temp files generated during training
+train_cache/
+cache/
+tmp/
